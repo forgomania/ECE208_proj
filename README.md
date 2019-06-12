@@ -1,7 +1,7 @@
-#Sequence-Based Protein Classification: a Naive Bayes Approach 
-####Yijing Li / Zhenghong Ma / Weixin Li / Weinan Li 
-##Abstract 
+# Sequence-Based Protein Classification: a Naive Bayes Approach 
+#### Yijing Li / Zhenghong Ma / Weixin Li / Weinan Li 
+## Abstract 
 The objective of this project is to build a model that enables classifying a protein into certain categories accurately and efficiently based solely on its sequence of amino acids. We acquired our data from the RCSB Protein Data Bank[1]. After selecting top-10 categories of proteins based on their functions, we managed to convert the amino acid sequence data into numerical arrays with Count-Vectorization method. The framework we used for classification is based on Naive Bayes, and we reached a best prediction accuracy of 89.2%. Furthermore, we have compared it and discussed with the results from other modern Machine Learning methods such as Adaboost[2] and Random Forest.   
-##Background 
+## Background 
 Nowadays, high-throughput biological sequencing becomes faster and more economical. However, the efficiency of extracting key information is limited by low­-throughput experimental characterization of proteins’ properties such as x-­ray crystallography (XRC) and cryo-­TEM [3] which classify proteins without utilizing sequences of proteins. In order to take advantage of the mass information of sequences [4] and accelerate the process of experimental characterizations, our team decided to apply machine learning techniques for the classification [5] of protein function directly from primary sequence. 
 The advantages of using Machine Learning for classification are obvious: high-speed and low-labor-cost compared to the traditional experimental methods. Classifying proteins according to sequences enables machines to do classification once they get the data instead of using the experimental method that requires waiting for the process of chemical reactions. By utilizing computers without the supervision of scientists or researchers, we reduced the labor costs significantly. 
